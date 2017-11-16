@@ -15,7 +15,7 @@ public class PostProcessDepthGrayscale : MonoBehaviour {
 	}
 
 	void OnRenderImage (RenderTexture source, RenderTexture destination){  
-		Graphics.Blit(source,destination,mat);  
+		Graphics.Blit(source, destination, mat);  
 	}  
 	
 	// Update is called once per frame
